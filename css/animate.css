@@ -5,7 +5,12 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
+body{
+  max-width:100%;
+}
+.navbar-default{
+  max-width:100%;
+}
 .animated.infinite {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
