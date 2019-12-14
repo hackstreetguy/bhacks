@@ -7,7 +7,8 @@
     <meta name="author" content="">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -67,6 +68,13 @@
             z-index: 400;
         }
 
+        @media only screen and (max-width: 800px) {
+            .im {
+                width: 300px;
+                height: 100px;
+            }
+        }
+
         h3 {
             font-size: 20px;
             color: #666363
@@ -122,13 +130,15 @@
             </div> -->
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <img class="landing-logo wow fadeInUp" data-wow-delay="1.6s" src="images/Asset 20.svg" style="">
+                    <div class="d-flex flox-row justify-content-center align-items-center">
+                        <img class="landing-logo wow fadeInUp im" data-wow-delay="1.6s" src="images/Asset 20.svg">
+                    </div>
                     <h3 class="wow bounceIn" data-wow-delay="0.9s">Feb 7th in Indian Institute of Information
                         Technology, Allahabad</h3>
 
                     <a href="#" class="btn btn-lg btn-danger smoothScroll wow fadeInUp"
                         data-wow-delay="2.3s">Registrations opening soon</a>
-                    <a href="brochure/brochure.pdf" class="btn btn-lg btn-danger smoothScroll wow fadeInUp hidden-xs"
+                    <a href="brochure/brochure.pdf" class="btn btn-lg btn-danger smoothScroll wow fadeInUp"
                         data-wow-delay="2.3s">SPONSOR US</a>
                 </div>
             </div>
@@ -194,37 +204,37 @@
                                 <ul class="timeline">
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">9:00pm Feb 8th</h3>
+                                        <h3 class="float-right">9:00pm Feb 7th</h3>
                                         <p>Registration begins</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">10:00pm Feb 8th</h3>
+                                        <h3 class="float-right">10:00pm Feb 7th</h3>
                                         <p>B-Hacks Begins at Lab 5421</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">3:00am Feb 9th</h3>
+                                        <h3 class="float-right">3:00am Feb 8th</h3>
                                         <p>Snacks</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">8:00am Feb 9th</h3>
+                                        <h3 class="float-right">8:00am Feb 8th</h3>
                                         <p>Breakfast break</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">1:30pm Feb 9th</h3>
+                                        <h3 class="float-right">1:30pm Feb 8th</h3>
                                         <p>Lunch</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">5:00pm Feb 9th</h3>
+                                        <h3 class="float-right">5:00pm Feb 8th</h3>
                                         <p>B-Hacks ends</p>
                                     </li>
                                     <li>
                                         <!-- <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a> -->
-                                        <h3 class="float-right">11:00am Feb 10th</h3>
+                                        <h3 class="float-right">11:00am Feb 9th</h3>
                                         <p>B-Hacks presentations at CC-3</p>
                                     </li>
 
@@ -532,14 +542,14 @@
                 </div>
                 <div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
                     <h2>Contact us</h2>
-                    <h4>Aswanth K Anil</h4>
-                    <h4>+91-8075153249 </h4>
-                    <h4>aswanth9495@gmail.com</h4>
+                    <h4>Aadya Mishra</h4>
+                    <h4>+91-8840626829 </h4>
+                    <h4>aadyamishra24@gmail.com</h4>
                     <!-- <h4>https://iiic.iiita.ac.in</h4> -->
                     <br>
-                    <h4>Siddhant Srivastav</h4>
-                    <h4>+91-9388472381 </h4>
-                    <h4>siddhant@gmail.com</h4>
+                    <h4>Sagar Lakhani</h4>
+                    <h4>+91-9138579761 </h4>
+                    <h4>sagarlakhani1999@gmail.com</h4>
 
                 </div>
             </div>
@@ -589,33 +599,22 @@
 
                     <div class="item wow fadeInUp col-md-3 col-sm-3">
                         <div class="speakers-wrapper">
-                            <img src="images/team/aswant.jpg" class="img-responsive" alt="speakers">
+                            <img src="images/team/pratham.jpg" class="img-responsive" alt="speakers">
                         </div>
                         <div class="speakers-thumb">
-                            <h3>Aswanth K</h3>
-
-                        </div>
-                    </div>
-
-                    <div class="item wow fadeInUp col-md-3 col-sm-3">
-                        <div class="speakers-wrapper">
-                            <img src="images/team/siddhant.jpg" class="img-responsive" alt="speakers">
-                        </div>
-                        <div class="speakers-thumb">
-                            <h3>Siddhant Srivastav</h3>
+                            <h3>Pratham Gupta</h3>
 
                         </div>
                     </div>
                     <div class="item wow fadeInUp col-md-3 col-sm-3">
                         <div class="speakers-wrapper">
-                            <img src="images/team/shreyansh.jpg" class="img-responsive" alt="speakers">
+                            <img src="images/team/sagar.jpg" class="img-responsive" alt="speakers">
                         </div>
                         <div class="speakers-thumb">
-                            <h3>Shreyansh Dwivedi</h3>
+                            <h3>Sagar Lakhani</h3>
 
                         </div>
                     </div>
-
                     <div class="item wow fadeInUp col-md-3 col-sm-3">
                         <div class="speakers-wrapper">
                             <img src="images/team/tanmay.jpg" class="img-responsive" alt="speakers">
@@ -686,7 +685,6 @@
             </div>
         </div>
     </footer>
-
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
